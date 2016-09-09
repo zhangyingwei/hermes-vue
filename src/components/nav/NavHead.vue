@@ -33,7 +33,6 @@ export default {
   height: 4em;
   border-bottom: 1px solid #f0f0f0;
   background-color: #fff;
-  padding-bottom: 15px;
   position:fixed;
   top:0;
   left:0;
@@ -46,7 +45,8 @@ export default {
 }
 .nav-head .nav-content {
   width: 1000px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  margin-top: 10px;
 }
 .nav-head ul{
   height: 100%;
