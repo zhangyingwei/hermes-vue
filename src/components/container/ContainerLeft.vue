@@ -1,15 +1,15 @@
 <template>
   <div class="content-left">
-    {{desc}}
+    <left-nav></left-nav>
   </div>
 </template>
 
 <script>
+import LeftNav from './left/LeftNav'
+
 export default {
-  data () {
-    return {
-      desc: 'left'
-    }
+  components: {
+    LeftNav
   }
 }
 </script>
@@ -20,7 +20,7 @@ export default {
 .content-left{
   width: 140px;
   margin: 20px 0 0 0;
-  background-color: #fff;
+  /*background-color: #fff;*/
   height:500px;
   float: left;
 }
