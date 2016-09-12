@@ -15,30 +15,6 @@ export default {
         {text: 'java'},
         {text: '前端'},
         {text: 'PHP'},
-        {text: '推荐'},
-        {text: 'java'},
-        {text: '前端'},
-        {text: 'PHP'},
-        {text: '推荐'},
-        {text: 'java'},
-        {text: '前端'},
-        {text: 'PHP'},
-        {text: '推荐'},
-        {text: 'java'},
-        {text: '前端'},
-        {text: 'PHP'},
-        {text: '推荐'},
-        {text: 'java'},
-        {text: '前端'},
-        {text: 'PHP'},
-        {text: '推荐'},
-        {text: 'java'},
-        {text: '前端'},
-        {text: 'PHP'},
-        {text: '推荐'},
-        {text: 'java'},
-        {text: '前端'},
-        {text: 'PHP'},
         {text: 'Redis'}
       ]
     }
@@ -50,7 +26,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .content-left-nav {
-  /*position:fixed;*/
+  position:fixed;
   width: 140px;
 }
 .content-left-nav ul{
