@@ -223,6 +223,10 @@ export default {
 .box-list ul li{
   margin: 10px 0 0 0;
 }
+.box-list ul li:hover{
+  background-color: #F5F5F5;
+  color: #007fff;
+}
 .box-list .list-img{
   width: 70px;
   height: 70px;
